@@ -1,0 +1,4 @@
+RewriteEngine On
+# Laisser passer la validation Let's Encrypt du certificat https de l'hébergement
+RewriteCond %{REQUEST_URI} !^/\.well-known/
+RewriteRule ^ https://sharemeeting.sharewizme.com/sign_in [R=301,L]
