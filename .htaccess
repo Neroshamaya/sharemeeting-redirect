@@ -1,5 +1,3 @@
-# Lever un éventuel refus hérité du dossier parent de l'hébergement
-Require all granted
 RewriteEngine On
 # Laisser passer la validation Let's Encrypt du certificat https de l'hébergement
 RewriteCond %{REQUEST_URI} !^/\.well-known/
